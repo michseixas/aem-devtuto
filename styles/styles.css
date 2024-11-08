@@ -17,8 +17,8 @@
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
-  --text-color-wisky-light: #D68D19;
-  --text-color-wisky-dark: #672411;
+  --text-color-wisky-light: #f4dab1;
+  --text-color-wisky-dark: #f3be68;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
 
@@ -78,7 +78,7 @@ body {
   display: none;
   margin: 0;
   background-color: var(--background-color-b);
-  color: var(--text-color);
+  color: var(--text-color-wisky-light);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
   line-height: 1.6;
@@ -114,6 +114,7 @@ h6 {
   font-weight: 600;
   line-height: 1.25;
   scroll-margin: 40px;
+  color: var(--text-color-wisky-dark);
 }
 
 h1 { font-size: var(--heading-font-size-xxl); }
