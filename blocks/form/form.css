@@ -115,6 +115,7 @@ main .form button {
   font-family: var(--body-font-family);
 }
 
+/* stylelint-disable-next-line media-feature-range-notation */
 @media screen and (min-width: 900px) {
   main .form {
     padding: var(--spacing-ml);
